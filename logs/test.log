@@ -1,0 +1,37 @@
+22:57:00.437 [main] INFO  com.api.listners.TestListener - Test started successfully
+22:57:02.352 [main] INFO  com.api.filters.LoggingFilter - Base_Url : http://64.227.160.186:8080
+22:57:02.352 [main] INFO  com.api.filters.LoggingFilter - Headers : Accept=*/*
+Content-Type=application/json
+22:57:02.353 [main] INFO  com.api.filters.LoggingFilter - Request Body : {"username":"newMan","password":"newMan123"}
+22:57:03.313 [main] INFO  com.api.filters.LoggingFilter - Status Code : 200
+22:57:03.314 [main] INFO  com.api.filters.LoggingFilter - Headers : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 22 Apr 2026 17:27:03 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:57:03.432 [main] INFO  com.api.filters.LoggingFilter - Response Body : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdNYW4iLCJpYXQiOjE3NzY4Nzg4MjMsImV4cCI6MTc3Njg4MjQyM30.XE-rPd8GLgJO94V1qZNjBwQGEBnJu7w7cU8rQqjOZ2I",
+    "type": "Bearer",
+    "id": 5035,
+    "username": "newMan",
+    "email": "ehjfgvyf@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:57:03.511 [main] INFO  com.api.listners.TestListener - Test Passed: test - Verify if the login API is working
+22:57:03.553 [main] INFO  com.api.listners.TestListener - Test Has Been Completed successfully
